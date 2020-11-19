@@ -1,1 +1,1 @@
-I installed Ubuntu 20.10. I dual booted my laptop with both Windows 10 Home and Ubuntu 20.10 on SSD. During installation i didn't face any issues but after installation I found that my keyboard was glitching.
+I installed Ubuntu 20.10. I dual booted my laptop with both Windows 10 Home and Ubuntu 20.10 on SSD. During installation i didn't face any issues but after installation I found that my keyboard was glitching. But trying to fix that issue!
