@@ -1,2 +1,16 @@
-### Ubiquitous UI
-Initially I was using TabBarView for getting the 2 "page views" but then I found out about PageView Class, which made things easy. I was also confused about where to put the [dotsIndicator](https://pub.dev/packages/dots_indicator) widget in the code and it was creating problems for my layout, but finally i got that right too! I hope it looks as expected.
+# newapp1
+
+learning flutter the net ninja
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
