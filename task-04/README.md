@@ -1,2 +1,2 @@
 ## Debugging Derbies
-This was one of the easiest main tasks.  Initially after seeing the long program in the MathQuiz.java file, I got nervous but then soon figured out that it was just basic syntax errors and I got rid of them. I had to look up a few things to get rid of all of Lenna's mistake but at the end everything wasa breeze.
+This was one of the easiest main tasks.  Initially after seeing the long program in the MathQuiz.java file, I got nervous but then soon figured out that it was just basic syntax errors and I got rid of them. I had to look up a few things to get rid of all of Lenna's mistake but at the end everything was a breeze.
