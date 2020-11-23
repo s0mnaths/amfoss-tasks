@@ -7,7 +7,7 @@ var interval = 1000; //time in miliseconds
 var timer = setInterval(
     function(){
   
-//for (i = 0; i < counter; i++)  //use for loop instead of setinterval if you want to delay between messages
+//for (i = 0; i < counter; i++)  //use for loop instead of setinterval if you don't want to delay between messages
     var event = document.createEvent("Events"); 
     textBox.innerHTML = message; 
     event.initEvent("input", true, true, window, 1); 
