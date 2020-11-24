@@ -46,7 +46,7 @@ func run() (err error) {
 		ListOptions: reddit.ListOptions{
 			Limit: 100,
 		},
-		Time: "past week",
+		Time: "week",
 	})
 	if err != nil {
 		return
