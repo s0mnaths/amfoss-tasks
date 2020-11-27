@@ -3,9 +3,11 @@
 #include <vector>
 #include <iostream>
 #include <algorithm>
+#include <unordered_set>
 using namespace std;
 
-int main() { 
+
+int main() {  
     
     int n,m;
     cin>>n>>m;
@@ -14,24 +16,24 @@ int main() {
     {
         cin>>arr[i];
     }
-    
     int counter=0;
     
-    for(int i=0;i<n;i++)
+    unordered_set<int> s;
+    for (int i = 0; i < n; i++) 
     {
-        for(int j=0;j<n;j++)
-        {
-            if((j!=i) && ((arr[i]+arr[j])==m))
-            {
-                counter=1;
-            }
-        }
+        int temp = m - arr[i];
+ 
+        if (s.find(temp) != s.end())
+            counter=1;
+ 
+        s.insert(arr[i]);
     }
     
     if(counter==1)
         cout<<"True";
     else
         cout<<"False";
+    
     
     return 0;
 }
