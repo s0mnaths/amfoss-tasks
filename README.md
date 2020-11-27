@@ -14,6 +14,7 @@
 [Task-08](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-08) | Sir Perceval's Quest | Using Perceval package to print all repository names of an organisation and fetch and store all commits info in a .json file | Completed |
 [Task-09](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-09) | Spammer Spaghetti | Write a Javascript script to spam messages in Telegram | Completed (made a WhatsApp spammer instead, as advised by my Seniors) |
 [Task-10](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-10) | CS50 | Watch all CS50 Lectures and complete its PSets | Skipped |
+[Task-11](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-11) | Poster Designing | Design a Poster describing yourself | Complete |
 [Task-13](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-13) | Circuit Design | Use Tinkercad to design and code an Arduino circuit to stop a motor when it senses an obstacle near by | Completed |
 [Task-14](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-14) | Bandit | Finish the game about learning Terminal commands till Level-10 | Completed |
 [Task-15](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-15) | Project Euler (1-5) | Finish Project Euler challeneges 1-5 | Incomplete(Incorrect: 1,2 & Correct: 3,4,5) |
