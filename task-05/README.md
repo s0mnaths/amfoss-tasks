@@ -1,0 +1,2 @@
+## Rustic Scraper
+I couldn't finish this task. I had trouble getting the program to return data from the HTML Table. I looked at many sources for using the selector crate and then returning data from HTML Tables or rows but couldn't figure it out, it wasn't even showing errors. It was my fault that I could not figure out which selector to parse. Also I looked up how to write data in a .csv file and I'll use it later when I get the required data from the website.
