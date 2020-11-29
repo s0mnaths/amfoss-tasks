@@ -5,7 +5,7 @@
 | Task | Task Name | Overview | Status |
 | --- | --- | --- | --- |
 | [Task-00](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-00) | Installing Ubuntu | Install Ubuntu 20.04 LTS | Completed |
-[Task-01](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-01) | Star all [amFOSS](https://github.com/amfoss) repositories | Star all repositories of amfoss using the [script](https://github.com/amfoss/star-me) provied | Completed |
+[Task-01](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-01) | Star all [amFOSS](https://github.com/amfoss) repositories | Star all repositories of amfoss using the [script](https://github.com/amfoss/star-me) provided | Completed |
 [Task-02](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-02) | Register your Nick in IRC Freenode | We need to register a Nickname in IRC Freenode and join #amfoss | Completed |
 [Task-03](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-03) | Programming | Finish 10 Hackerrank Challenges in Python/C++/Java | Incomplete |
 [Task-04](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-04) | Debugging Derbies | Debug the given Java program and fix all errors/mistakes | Completed |
