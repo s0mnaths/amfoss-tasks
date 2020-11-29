@@ -6,4 +6,4 @@ I had very basic knowledge of C++ and attempted all challeges using that languag
 
 In conclusion, I have to work hard on my Competitive Programming and Problem solving skills.
 
-Find me on Hackerrank: [@somnaths027](https://www.hackerrank.com/somnaths027?hr_r=1)
+Find me on Hackerrank: [@s0mnaths](https://www.hackerrank.com/s0mnaths?hr_r=1)
