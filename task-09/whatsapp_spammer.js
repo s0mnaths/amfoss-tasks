@@ -1,4 +1,4 @@
-var textBox = document.querySelectorAll("[contenteditable='true']")[1];  //Selecttor of 2nd textbox
+var textBox = document.querySelectorAll("[contenteditable='true']")[1];  //Selector of 2nd textbox
   
 var message = "Hi"; 
 var counter = 20;
