@@ -1,46 +1,43 @@
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
+#include<bits/stdc++.h>
 using namespace std;
+#define MAXN 1000001
+#define MODN 1000000007
 
-int main() 
-{   
-    int t,n, remiander;
-    cin>>t;
-    int reverse[t]={0};
+long long int f[MAXN];
+void precompute()
+{
     
-    for(int i=0;i<t;i++)
+    f[1] = 1; f[2] = 2; f[3] = 3;
+    
+    for(int i = 4;i<MAXN;i++)
     {
-        cin>>n;
-        
-        if(n<4)
-        {
-            reverse[i]=n;
-        }
-        else
-        {
-            int f[n];
-            f[0]=1; f[1]=2; f[2]=3;
-        
-            for(int j=3;j<n;j++)
-            {
-                f[j]=( f[j-1] + f[j-2] + f[j-3] ) ;
-            }
-        
-            while(f[n-1] != 0)
-            {
-                remiander = f[n-1] % 10;
-                reverse[i] = reverse[i] * 10 + remiander;
-                f[n-1] = f[n-1] / 10;
-            }
-        }
+        f[i] = (f[i-1] + f[i-2] + f[i-3])%MODN;
+    }
+}
+
+int reverse(int x)
+{
+    int rev = 0;
+    while(x != 0)
+    {
+        int ones = x%10;
+        rev = (rev*10) + ones;
+        x /= 10;
     }
     
-    for(int i=0;i<t;i++)
+    return rev;
+}
+
+int main()
+{
+    precompute();    
+    int t, x;
+    cin >> t;
+    
+    for(int i = 0;i<t;i++)
     {
-        cout<<reverse[i]<<endl;
+        cin >> x;
+        cout << reverse((int)f[x]) << endl;
     }
     
     return 0;
