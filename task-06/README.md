@@ -12,3 +12,4 @@ Initally I was having errors with my credentials because I wasn't using the corr
 * [Go:Documentation](https://golang.org/doc/)
 * [Go-reddit](https://github.com/vartanbeno/go-reddit)
 * [Reddit-API](https://www.reddit.com/dev/api)
+* [Reddit: Create App credentials](https://github.com/reddit-archive/reddit/wiki/OAuth2-Quick-Start-Example#first-steps)
