@@ -7,7 +7,7 @@ By joining amFOSS I'll be able to improve my technical and social skills and als
 In the next three months, I plan to learn about different programming languages, work on a project and try to explore the *World of Programming* as much as I can, so that I get an idea about everything. I'm also hoping to focus more in class so that I get a good CGPA(resulting in reduced Fees). 
 
 ### 3. How would you contribute back to the club? 
-I like the **CODE -> SHARE -> GROW** concept, and whatever I learn, I would be more than happy to pass on to my coming juniors who are as interested in CS & FOSS as I am, because *"The more you Teach, the more you Learn."* I will also try to polish my skills so that I can win big Hackathons and ompetitions for amFOSS.
+I like the **CODE -> SHARE -> GROW** concept, and whatever I learn, I would be more than happy to pass on to my coming juniors who are as interested in CS & FOSS as I am, because *"The more you Teach, the more you Learn."* I will also try to polish my skills so that I can win big Hackathons and competitions for amFOSS.
 
 ### 4. Do you have any feedback for the selection process?
 The selection process was well structured, it exposed us to different programming languages(Go, Rust, Dart, JavaScript, Python, etc.) and made us familiar with various things like Competitive Programming, Problem Solving, Web Scraping, using the API, App Designing, and Arduino. Most of all, the tasks made us comfortable with using the Terminal and using Git and GitHub. I believe that enough time(40 days) was given to us for completing the tasks.
