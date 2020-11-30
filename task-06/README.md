@@ -6,3 +6,9 @@ Initally I was having errors with my credentials because I wasn't using the corr
 **Note**: 
 1. Install [Go-reddit](https://github.com/vartanbeno/go-reddit) before running the file.
 2. In place of *ID, SECRET, USERNAME, PASSWORD*, enter your own credentials
+
+
+Some resources that came in handy:
+* [Go:Documentation](https://golang.org/doc/)
+* [[Go-reddit](https://github.com/vartanbeno/go-reddit)
+* [Reddit-API](https://www.reddit.com/dev/api)
