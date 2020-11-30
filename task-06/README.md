@@ -8,7 +8,7 @@ Initally I was having errors with my credentials because I wasn't using the corr
 2. In place of *ID, SECRET, USERNAME, PASSWORD*, enter your own credentials
 
 
-Some resources that came in handy:
+**Some resources that came in handy:**
 * [Go:Documentation](https://golang.org/doc/)
-* [[Go-reddit](https://github.com/vartanbeno/go-reddit)
+* [Go-reddit](https://github.com/vartanbeno/go-reddit)
 * [Reddit-API](https://www.reddit.com/dev/api)
