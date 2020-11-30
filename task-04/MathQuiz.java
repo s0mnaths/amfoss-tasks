@@ -337,10 +337,7 @@ public class MathQuiz extends JFrame {
                 result = num1 * num2; //formula 
                 question = ("" + num1 + "*" + num2); //question label content
             } else if (operator == 4) {
-                result=(double)num1/(++num2);
-                result*=100;
-                result=(int)result;
-                result=result/100;
+                result = num1 / num2;
                 question = ("" + num1 + "/" + num2); //question label content
             } else {
                 result = num1 + num2; //formula 
@@ -413,11 +410,7 @@ public class MathQuiz extends JFrame {
                     result = num1 * num2;
                     question = ("" + num1 + "*" + num2);
                 } else if (operator == 4) {
-                    result=(double)num1/(++num2);
-                    result*=100;
-                    result=(int)result;
-                    result=result/100;
-                    
+                    result = num1 / num2 ;
                     question = ("" + num1 + "/" + num2);
                 } else {
                     result = num1 + num2;
