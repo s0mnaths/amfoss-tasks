@@ -1,7 +1,7 @@
 ## Circuit Design
 Learned very basics of Arduino and what all it can do, also the langauge was pretty easy and similar to C++. Also I was familar to [Tinkerad](https://www.tinkercad.com/) as I had a Lab-session regarding it.
 
-The circuit uses Ultrasonic Sensor. I placed the motor in such a way that it is just in front of the sensor and when any obstacle comes within 100cms of the motor, the Ultrasonic Sensor will sense it, and the motor will stop.
+The circuit uses Ultrasonic Sensor. I placed the motor in such a way that it is just in front of the sensor. So when any obstacle comes within 100cms of the motor, the Ultrasonic Sensor will sense it, and the motor will stop.
 
 
 Circuit Connections:
