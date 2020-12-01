@@ -1,13 +1,32 @@
 import os
 import requests
 
-request = requests.get('https://api.github.com/users/amfoss/repos?per_page=100')
-apiresult = request.json()
-print("List of all @amFOSS repositories: \n")
+def printrepo(apicall, **kwargs):
 
-for i in range(0,len(apiresult)):
-  print( i+1 , ")" , apiresult[i]['name'] ,"\n")
+    data = kwargs.get('page', [])
 
-for i in range(0,len(apiresult)):
-    command = "perceval git --json-line " + apiresult[i]['html_url'] + ">> commits.json"
-    os.system(command)
+    resp = requests.get(apicall)
+    data += resp.json()
+
+    if len(data) > 500:
+        return (data)
+
+    if 'next' in resp.links.keys():
+        return (printrepo(resp.links['next']['url'], page=data))
+
+    print("List of all @amFOSS repositories: \n")
+
+    for i in range(0,len(data)):
+        print( i+1 , ")" , data[i]['name'] ,"\n")
+
+    count=0
+    for i in range(0,len(data)):
+        command = "perceval git --json-line " + data[i]['html_url'] + ">> commits.json"
+        os.system(command)
+        count+=1
+    
+    print("\n\n\nTotal " + str(count) + " Repositories' commit information stored in commits.json file.")
+
+
+orgsrepoapi = 'https://api.github.com/orgs/amfoss/repos?per_page=7'
+data = printrepo(orgsrepoapi)
