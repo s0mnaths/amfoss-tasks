@@ -7,9 +7,9 @@
 | [Task-00](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-00) | Installing Ubuntu | Install Ubuntu 20.04 LTS | Completed |
 [Task-01](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-01) | Star all [amFOSS](https://github.com/amfoss) repositories | Star all repositories of amfoss using the [script](https://github.com/amfoss/star-me) provided | Completed |
 [Task-02](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-02) | Register your Nick in IRC Freenode | We need to register a Nickname in IRC Freenode and join #amfoss | Completed |
-[Task-03](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-03) | Programming | Finish 10 Hackerrank Challenges in Python/C++/Java | Incomplete |
+[Task-03](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-03) | Programming | Finish 10 Hackerrank Challenges in Python/C++/Java | Incomplete(Attempted all, Correct-5, Incorrect-5) |
 [Task-04](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-04) | Debugging Derbies | Debug the given Java program and fix all errors/mistakes | Completed |
-[Task-05](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-05) | Rustic Scraper | Scrape data from a COVID-19 tracker website and store it in a .csv file | Incomplete/Pending |
+[Task-05](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-05) | Rustic Scraper | Scrape data from a COVID-19 tracker website and store it in a .csv file | Pending |
 [Task-06](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-06) | Geddit | Write a GO-Lang script to search for a subreddit, and then fetch and upvote its posts | Completed |
 [Task-07](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-07) | Ubiquitous UI | Design a UI similar to the one given in Fresher's Tasks example, using Flutter | Completed |
 [Task-08](https://github.com/s0mnaths/amfoss-tasks/tree/main/task-08) | Sir Perceval's Quest | Using Perceval package to print all repository names of an organisation and fetch and store all commits info in a .json file | Completed |
